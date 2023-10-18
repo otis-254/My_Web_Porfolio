@@ -76,13 +76,13 @@ img {
 // Header
 #header {
 
-    // Header Home
+    // Header Home  
     &-home {
         background: $bg-image no-repeat center right / cover;
         height: 100vh;
         color: #fff;
+        c:\Users\User\Downloads\pexels-nikolaos-dimou-2473183.jpg // Header Content
 
-        // Header Content
         .header-content {
             text-align: center;
             padding-top: 20%;
@@ -240,6 +240,7 @@ img {
             &:hover {
                 background-color: $main-color;
             }
+
 
             ul {
                 list-style: none;
