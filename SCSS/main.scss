@@ -39,6 +39,9 @@ img {
     height: 70px;
     color: #fff;
     text-transform: uppercase;
+
+
+
 }
 
 // Main Nav
@@ -46,6 +49,10 @@ img {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+
+    img {
+        border-radius: 50%;
+    }
 
     ul {
         display: flex;
@@ -113,7 +120,7 @@ img {
             grid-gap: 1rem;
             grid-template-columns: repeat(4, 1fr);
 
-            .fas {
+            .fa {
                 color: $main-color;
                 padding-bottom: 0.4rem;
             }
